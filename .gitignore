@@ -8,3 +8,7 @@ bin-int/
 *.vcxproj
 *.filters
 *.user
+
+
+# don't ignore
+!vendor/
