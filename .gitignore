@@ -1,14 +1,12 @@
-# directories
+# Directories
 .vs/
-bin/
+**/bin/
+!vendor/bin/premake/
 bin-int/
 
-# files
+# Files
 *.sln
 *.vcxproj
+*.user 
 *.filters
-*.user
 
-
-# don't ignore
-!vendor/
